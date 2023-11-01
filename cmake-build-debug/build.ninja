@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/monda/OneDrive/Desktop/Github/cmake-build-debug/
 
 build cmake_object_order_depends_target_Github: phony || CMakeFiles/Github.dir
 
-build CMakeFiles/Github.dir/technical.c.obj: C_COMPILER__Github_unscanned_Debug C$:/Users/monda/OneDrive/Desktop/Github/technical.c || cmake_object_order_depends_target_Github
-  DEP_FILE = CMakeFiles\Github.dir\technical.c.obj.d
+build CMakeFiles/Github.dir/technical2.c.obj: C_COMPILER__Github_unscanned_Debug C$:/Users/monda/OneDrive/Desktop/Github/technical2.c || cmake_object_order_depends_target_Github
+  DEP_FILE = CMakeFiles\Github.dir\technical2.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Github.dir
   OBJECT_FILE_DIR = CMakeFiles\Github.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Github.dir/technical.c.obj: C_COMPILER__Github_unscanned_Debug 
 #############################################
 # Link the executable Github.exe
 
-build Github.exe: C_EXECUTABLE_LINKER__Github_Debug CMakeFiles/Github.dir/technical.c.obj
+build Github.exe: C_EXECUTABLE_LINKER__Github_Debug CMakeFiles/Github.dir/technical2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Github.dir
