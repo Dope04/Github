@@ -5,11 +5,11 @@ int main() {
     double num1, num2, result;
     char operator;
 
-    printf("Enter first number: ");
-    scanf("%lf", &num1);
-
     printf("Enter an operator (+, -, *, /): ");
     scanf(" %c", &operator);
+
+    printf("Enter first number: ");
+    scanf("%lf", &num1);
 
     printf("Enter second number: ");
     scanf("%lf", &num2);
