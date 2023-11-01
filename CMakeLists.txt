@@ -4,4 +4,7 @@ project(Github C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Github
-        sample.c/project.c)
+        #sample.c
+        # sample.c/class.c
+        technical.c
+)

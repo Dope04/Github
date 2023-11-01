@@ -1,4 +1,8 @@
+//
+// Created by monda on 01-11-2023.
+//
 #include <stdio.h>
+
 int main() {
     int num;
     printf("enter a number:");
@@ -8,4 +12,5 @@ int main() {
         printf("%d x %d = %d\n", num, i, num * i);
     }
 
+    return 0;
 }
